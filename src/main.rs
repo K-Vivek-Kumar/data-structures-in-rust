@@ -11,4 +11,7 @@ fn main() {
     linked_list.insert(-2);
     linked_list.insert(1);
     linked_list.print();
+    println!("{}", linked_list.search(12));
+    linked_list.delete(1);
+    linked_list.print();
 }
