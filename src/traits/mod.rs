@@ -1,3 +1,4 @@
+#[allow(dead_code)]
 pub trait DataStructure<T> {
     fn new() -> Self;
     fn insert(&mut self, val: T);
